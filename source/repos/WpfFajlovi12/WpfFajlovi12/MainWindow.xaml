@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfFajlovi12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfFajlovi12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="TextBox1" HorizontalAlignment="Center" Margin="0,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="666" Height="130" IsReadOnly="True"/>
+        <Button Name="ButtonPrikazi" Content="Prikazi fajlove" HorizontalAlignment="Left" Margin="67,203,0,0" VerticalAlignment="Top" Click="ButtonPrikazi_Click"/>
+        <Button Name="ButtonKreiraj" Content="Kreiraj" HorizontalAlignment="Left" Margin="180,203,0,0" VerticalAlignment="Top" Click="ButtonKreiraj_Click"/>
+        <Button Name="ButtonObrisi" Content="Obrisi" HorizontalAlignment="Left" Margin="254,203,0,0" VerticalAlignment="Top" Click="ButtonObrisi_Click"/>
+        <Button Name="ButtonKopiraj" Content="Kopiraj" HorizontalAlignment="Left" Margin="333,203,0,0" VerticalAlignment="Top" Click="ButtonKopiraj_Click"/>
+        <Button Name="ButtonPrenesi" Content="Move" HorizontalAlignment="Left" Margin="428,203,0,0" VerticalAlignment="Top" Click="ButtonPrenesi_Click"/>
+        <TextBox Name="TextBox2" HorizontalAlignment="Left" Margin="67,252,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="121" AcceptsTab="True" AcceptsReturn="True"/>
+        <Button Name="ButtonWriteAllText" Content="WriteAllText" HorizontalAlignment="Left" Margin="67,373,0,0" VerticalAlignment="Top" Click="ButtonWriteAllText_Click"/>
+        <Button Name="ButtonReadAllText" Content="ReadAllText" HorizontalAlignment="Left" Margin="218,378,0,0" VerticalAlignment="Top" Click="ButtonReadAllText_Click"/>
+        <Button Name="ButtonAppenAllText" Content="AppenAllText" HorizontalAlignment="Left" Margin="320,393,0,0" VerticalAlignment="Top" Click="ButtonAppenAllText_Click"/>
+        <Button Name="ButtonWriteAllLines" Content="WriteAllLines" HorizontalAlignment="Left" Margin="445,393,0,0" VerticalAlignment="Top" Click="ButtonWriteAllLines_Click"/>
+        <Button Name="ButtonReadAllLines" Content="ReadAllLines" HorizontalAlignment="Left" Margin="578,388,0,0" VerticalAlignment="Top" Click="ButtonReadAllLines_Click_1" />
+
+    </Grid>
+</Window>
